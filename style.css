@@ -24,20 +24,24 @@ body{
     box-shadow: 10px 5px 5px rgb(71, 63, 63);
 }
 .title{
-    margin-bottom:3rem;
+
+    margin-bottom: 1rem;
+    width: 16rem;
 }
+
 .title_game{
     
     margin-bottom:1rem;
 }
 .game_text{
-    width:2rem;
-    height:2rem;
-    margin-left:1rem;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
     margin-right: 1rem;
-    padding-left:10px;
+    /* padding-left: 10px; */
+    padding: 5px;
+    text-transform: capitalize;
     font-size: 1.5rem;
-    padding-bottom: 10px;
 }
 .words{
     display: flex;
@@ -45,7 +49,7 @@ body{
 }
 
 .green{
-    color:rgb(3, 255, 3);
+    color:rgb(0, 233, 97);
 }
 .ps{
     display:inline;
@@ -62,4 +66,6 @@ body{
     margin-bottom: 1rem;
     background-color: #1cb295;
     border: none;
+    font-weight: bold;
+    color: #fff;
 }
